@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Sano Sansar App",
+            "request": "launch",
+            "type": "dart",
+            "program": "apps/sano_sansar_app/lib/main.dart",
+            
+        }
+    ]
+}
