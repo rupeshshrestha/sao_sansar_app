@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sano_sansar_app/core/routing/router.dart';
+import 'package:sano_sansar_ui/sano_sansar_ui.dart';
 
 class SanoSansarAPp extends StatelessWidget {
   const SanoSansarAPp({super.key});
@@ -9,9 +10,7 @@ class SanoSansarAPp extends StatelessWidget {
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       title: 'Sano Sansar App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: AppTheme.light,
       routerConfig: appRouter,
     );
   }
